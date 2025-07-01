@@ -28,7 +28,7 @@ To consult the user online documentation, go to
 Requirements
 ------------
 
-* Install `Python <https://www.python.org/downloads/>`_ (3.8, 3.9 or 3.10)
+* Install `Python <https://www.python.org/downloads/>`_ (3.9 or newer)
 
 The programming language used to code the application.
 
