@@ -24,10 +24,10 @@ import Resources.CeciliaLib as CeciliaLib
 from .constants import *
 from .API_interface import *
 
-if CeciliaLib.getVar("samplePrecision") == '64 bit':
-    from pyo64 import *
-else:
-    from pyo import *
+# The pyo project now distributes a single package with universal
+# binaries for both Intel and Apple Silicon.  The optional ``pyo64``
+# module is no longer provided, so we import ``pyo`` unconditionally.
+from pyo import *
 
 class CeciliaFilein:
     def __init__(self, parent, name):
