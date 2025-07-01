@@ -244,9 +244,13 @@ class PreferenceFrame(wx.Frame):
         textSamplePrecision = wx.StaticText(audioParamPanel, 0, 'Sample Precision :')
         textSamplePrecision.SetForegroundColour(PREFS_FOREGROUND)
         textSamplePrecision.SetFont(self.font)
-        self.choiceSamplePrecision = CustomMenu(audioParamPanel, choice=['32 bit', '64 bit'],
-                                                init=CeciliaLib.getVar("samplePrecision"),
-                                                size=(150, 20), outFunction=self.changeSamplePrecision)
+        # pyo no longer ships a separate 64-bit module, so only 32-bit
+        # precision is available.
+        self.choiceSamplePrecision = CustomMenu(audioParamPanel,
+                                                choice=['32 bit'],
+                                                init='32 bit',
+                                                size=(150, 20),
+                                                outFunction=self.changeSamplePrecision)
 
         # Bit depth
         textBufferSize = wx.StaticText(audioParamPanel, 0, 'Buffer Size :')
