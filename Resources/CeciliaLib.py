@@ -828,10 +828,9 @@ def deepCopy(ori):
         new = []
         for data in ori:
             new.append(deepCopy(data))
-        return new
+        return tuple(new)
     else:
         return ori
-    return new
 
 ###### Conversion functions #######
 def interpFloat(t, v1, v2):
