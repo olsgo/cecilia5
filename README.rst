@@ -69,8 +69,3 @@ Screenshot
 .. image:: doc-en/source/images/snapshot.png
      :width: 100%
 
-
-License
--------
-
-Cecilia5 is licensed under the terms of the GNU General Public License version 3. See the `LICENSE` file for the full license text.

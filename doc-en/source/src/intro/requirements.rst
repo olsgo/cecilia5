@@ -2,7 +2,8 @@ Installation - Requirements
 ============================
 
 Cecilia is compatible with the following systems:
-- macOS (10.12+, Intel and Apple Silicon)
+
+- Mac OS X (10.12+) 
 - Windows (7, 8, 8.1, 10)
 - Linux (at least Debian-based distros but should work with other linux flavours)
     
@@ -21,10 +22,10 @@ Running Cecilia from the lastest sources
 Before running Cecilia from the latest sources, 
 please check if all these elements are installed on your computer:
 
-- `Python 3.11 or newer <https://www.python.org/>`_
-- `Pyo 1.0.5 or newer <http://ajaxsoundstudio.com/software/pyo/>`_
+- `Python 3.7 <https://www.python.org/downloads/release/python-378/>`_
+- `Pyo 1.0.3 <http://ajaxsoundstudio.com/software/pyo/>`_
 - `Numpy 1.18 <https://pypi.python.org/pypi/numpy>`_
-- `WxPython 4.2 or newer <https://wxpython.org/pages/downloads/>`_ (install with `pip install wxPython`)
+- `WxPython 4.1.0 <https://wxpython.org/pages/downloads/>`_ (install with `pip install wxPython`)
 - `Git client <https://git-scm.com/downloads>`_
     
 Then, you can download Cecilia's sources by checking out the source code (in a terminal window):
