@@ -1,0 +1,4 @@
+# Minimum requirements for running Cecilia
+Python>=3.11
+pyo>=1.0.5
+wxPython>=4.2
